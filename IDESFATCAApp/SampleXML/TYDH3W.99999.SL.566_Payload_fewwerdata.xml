@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns2:FATCA_OECD xmlns="urn:oecd:ties:stffatcatypes:v1" xmlns:ns2="urn:oecd:ties:fatca:v1" version="1.1">
+    <ns3:MessageSpec xmlns:ns3="urn:oecd:ties:fatca:v1">
+       			<SendingCompanyIN>TYDH3W.99999.SL.566</SendingCompanyIN>
+				<TransmittingCountry>NG</TransmittingCountry>
+				<ReceivingCountry>US</ReceivingCountry>
+				<MessageType>FATCA</MessageType>
+				<Warning>NoWarning</Warning>
+				<MessageRefId>UBN001FATCA20151231</MessageRefId>
+				<ReportingPeriod>2014-12-31</ReportingPeriod>
+				<Timestamp>2016-01-06T08:50:45</Timestamp>
+    </ns3:MessageSpec>
+    <ns2:FATCA>
+        <ns2:ReportingFI>
+            <ResCountryCode>NG</ResCountryCode>
+            <TIN issuedBy="CA">01126024-0001</TIN>
+            <Name nameType="OECD207">UNION BANK OF NIGERIA PLC</Name>
+            <Address legalAddressType="OECD301">
+                <CountryCode>NG</CountryCode>
+                <AddressFix>
+                    <Street>Rua Humberto Perina 1426</Street>
+                    <PostCode>13311</PostCode>
+                    <City>Itu</City>
+                </AddressFix>
+            </Address>
+            <ns2:DocSpec>
+                <ns2:DocTypeIndic>FATCA11</ns2:DocTypeIndic>
+                <ns2:DocRefId>TYDH3W.99999.SL.566.12291cc1</ns2:DocRefId>
+            </ns2:DocSpec>
+        </ns2:ReportingFI>
+	     <ns2:ReportingGroup>
+            <ns2:AccountReport>
+                <ns2:DocSpec>
+                    <ns2:DocTypeIndic>FATCA11</ns2:DocTypeIndic>
+                    <ns2:DocRefId>TYDH3W.99999.SL.566.12291cc2</ns2:DocRefId>
+                </ns2:DocSpec>
+                <ns2:AccountNumber>6476009251198181799</ns2:AccountNumber>
+                <ns2:AccountHolder>
+                    <ns2:Individual>
+                        <ResCountryCode>CA</ResCountryCode>
+                        <TIN issuedBy="CA">562472495</TIN>
+                        <Name nameType="OECD207">
+                            <FirstName xnlNameType="GivenName">Etoile</FirstName>
+                            <MiddleName xnlNameType="MiddleInitial"></MiddleName>
+                            <NamePrefix xnlNameType="NamePrefix">Mrs.</NamePrefix>
+                            <LastName xnlNameType="FamilyName">Turcotte</LastName>
+                        </Name>
+                        <Address legalAddressType="OECD301">
+                            <CountryCode>CA</CountryCode>
+                            <AddressFix>
+                                <Street>Borstelmannsweg 68</Street>
+                                <PostCode>96469</PostCode>
+                                <City>R????dental</City>
+                            </AddressFix>
+                        </Address>
+                        <Nationality>US</Nationality>
+                        <BirthInfo>
+                            <BirthDate>1910-03-07</BirthDate>
+                            <City>R????dental</City>
+                            <CountryInfo>
+                                <CountryCode>CA</CountryCode>
+                            </CountryInfo>
+                        </BirthInfo>
+                    </ns2:Individual>
+                </ns2:AccountHolder>
+                <ns2:AccountBalance currCode="USD">1668046.73</ns2:AccountBalance>
+                <ns2:Payment>
+                    <ns2:Type>FATCA504</ns2:Type>
+                    <ns2:PaymentAmnt currCode="USD">778724.07</ns2:PaymentAmnt>
+                </ns2:Payment>
+            </ns2:AccountReport>
+             </ns2:ReportingGroup>
+    </ns2:FATCA>
+</ns2:FATCA_OECD>

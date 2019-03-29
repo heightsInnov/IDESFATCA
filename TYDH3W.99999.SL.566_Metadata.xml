@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<FATCAIDESSenderFileMetadata xmlns="urn:fatca:idessenderfilemetadata">
+    <FATCAEntitySenderId>TYDH3W.99999.SL.566</FATCAEntitySenderId>
+    <FATCAEntityReceiverId>000000.00000.TA.840</FATCAEntityReceiverId>
+    <FATCAEntCommunicationTypeCd>RPT</FATCAEntCommunicationTypeCd>
+    <SenderFileId>20190329T163825506Z_TYDH3W.99999.SL.566.zip</SenderFileId>
+    <FileCreateTs>2019-03-29T16:38:25Z</FileCreateTs>
+    <TaxYear>2015</TaxYear>
+    <FileRevisionInd>false</FileRevisionInd>
+    <SenderContactEmailAddressTxt>compliance@unionbankng.com</SenderContactEmailAddressTxt>
+</FATCAIDESSenderFileMetadata>

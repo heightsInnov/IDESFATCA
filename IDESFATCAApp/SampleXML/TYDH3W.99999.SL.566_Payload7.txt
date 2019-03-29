@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+	<urn:FATCA_OECD xmlns:urn="urn1:oecd:ties:fatca:v1">
+			<urn2:MessageSpec xmlns:urn2="urn:oecd:ties:fatca:v1">
+				<SendingCompanyIN>TYDH3W.99999.SL.566</SendingCompanyIN>
+				<TransmittingCountry>NG</TransmittingCountry>
+				<ReceivingCountry>US</ReceivingCountry>
+				<MessageType>FATCA</MessageType>
+				<MessageRefId>UBN001FATCA20151231</MessageRefId>
+				<ReportingPeriod>2014-12-31</ReportingPeriod>
+				<Timestamp>2016-01-05T08:50:45</Timestamp>
+			</urn2:MessageSpec>
+			<urn:FATCA>
+				<urn:ReportingFI>
+						<ResCountryCode>NG</ResCountryCode>
+						<TIN issuedBy="NG">01126024-0001</TIN>
+						<Name>UNION BANK OF NIGERIA PLC</Name>
+						<Address>
+							<CountryCode>NG</CountryCode>
+							<AddressFree>36 MARINA STALLION PLAZA LAGOS NIGERIA</AddressFree>
+						</Address>
+						<urn:DocSpec>
+							<urn:DocTypeIndic>FATCA11</urn:DocTypeIndic>
+							<urn:DocRefId>REF0001UBNFATCA2015</urn:DocRefId>
+						</urn:DocSpec>
+				</urn:ReportingFI>
+				<urn:ReportingGroup>
+					<urn:AccountReport>
+						<urn:DocSpec>
+						  <urn:DocTypeIndic>FATCA11</urn:DocTypeIndic>
+						  <urn:DocRefId>REF0002UBNFATCA2015</urn:DocRefId>
+						</urn:DocSpec>
+						<urn:AccountNumber>0042594104</urn:AccountNumber>
+						<urn:AccountHolder>
+							<urn:AcctHolderType>FATCA104</urn:AcctHolderType>
+							<urn:Individual>
+								<ResCountryCode>US</ResCountryCode>
+								<TIN issuedBy="US"></TIN>
+								<Name>									
+									<FirstName>BASSAM</FirstName>
+									<MiddleName>ALI</MiddleName>
+									<LastName>KAWASH</LastName>
+								</Name>
+								<Address>
+									<CountryCode>US</CountryCode>
+									<AddressFree>16 OBI ONUACHARA CRESENT ASABA</AddressFree>
+								</Address>				  
+								<BirthInfo>
+									<BirthDate>1953-12-30</BirthDate>
+									<CountryInfo>
+										<CountryCode>US</CountryCode>
+									</CountryInfo>
+								</BirthInfo>
+							</urn:Individual>
+						</urn:AccountHolder>
+						<urn:AccountBalance currCode="USD">0.00</urn:AccountBalance>
+							<urn:Payment>
+								<urn:Type>FATCA504</urn:Type>
+								<urn:PaymentAmnt currCode="USD">659750.00</urn:PaymentAmnt>
+							</urn:Payment>
+					</urn:AccountReport>
+					<urn:AccountReport>
+							<urn:DocSpec>
+								<urn:DocTypeIndic>FATCA11</urn:DocTypeIndic>
+								<urn:DocRefId>REF0003UBNFATCA2015</urn:DocRefId>
+							</urn:DocSpec>
+							<urn:AccountNumber>0037725223</urn:AccountNumber>
+							<urn:AccountHolder>  
+								<urn:AcctHolderType>FATCA104</urn:AcctHolderType>
+								<urn:Individual>
+									<ResCountryCode>US</ResCountryCode>
+									<TIN issuedBy="US"></TIN>
+									<Name>
+										<FirstName>UDENGWU</FirstName>
+										<MiddleName>CHIDI</MiddleName>
+										<LastName>BENJA</LastName>
+									</Name>
+							        <Address>
+										<CountryCode>US</CountryCode>
+										<AddressFree>917 LONGVIEW DRIVE LOS ANGELES COUNTRY SHERIF OR 450 BAUSHET STREET LOSANG DEPT CALIFONIA C/O MR UGWU F.A</AddressFree>
+									</Address>								
+									<BirthInfo>
+										<BirthDate>1962-07-27</BirthDate>
+										<CountryInfo>
+											<CountryCode>US</CountryCode>
+										</CountryInfo>
+									</BirthInfo>
+								</urn:Individual>
+							</urn:AccountHolder>
+							<urn:AccountBalance currCode="USD">11839.28</urn:AccountBalance>
+							<urn:Payment>
+								<urn:Type>FATCA504</urn:Type>
+								<urn:PaymentAmnt currCode="USD">82302.92</urn:PaymentAmnt>
+							</urn:Payment>
+					</urn:AccountReport>      
+					<urn:AccountReport>
+							<urn:DocSpec>
+								<urn:DocTypeIndic>FATCA11</urn:DocTypeIndic>
+								<urn:DocRefId>REF0004UBNFATCA2015</urn:DocRefId>
+							</urn:DocSpec>
+							<urn:AccountNumber>0000708141</urn:AccountNumber>
+							<urn:AccountHolder>
+								<urn:AcctHolderType>FATCA104</urn:AcctHolderType>
+								<urn:Individual>
+									<ResCountryCode>US</ResCountryCode>
+									<TIN issuedBy="US"></TIN>   
+									<Name>
+										<FirstName>NWOKEJI</FirstName>
+										<MiddleName>EMMANUEL</MiddleName>
+										<LastName>IGWEZE</LastName>
+									</Name>							  
+									<Address>
+										<CountryCode>US</CountryCode>
+										<AddressFree>P O BOX 61316 MEMPHIS TN38101</AddressFree>
+									</Address>							  
+									<BirthInfo>
+										<BirthDate>1990-11-20</BirthDate>
+										<CountryInfo>
+											<CountryCode>US</CountryCode>
+										</CountryInfo>
+									</BirthInfo>
+								</urn:Individual>
+							</urn:AccountHolder>
+							<urn:AccountBalance currCode="USD">14345.41</urn:AccountBalance>
+							<urn:Payment>
+								<urn:Type>FATCA504</urn:Type>
+								<urn:PaymentAmnt currCode="USD">155890.00</urn:PaymentAmnt>
+							</urn:Payment>
+					</urn:AccountReport>       
+					<urn:AccountReport>
+							<urn:DocSpec>
+								<urn:DocTypeIndic>FATCA11</urn:DocTypeIndic>
+								<urn:DocRefId>REF0005UBNFATCA2015</urn:DocRefId>
+							</urn:DocSpec>
+							<urn:AccountNumber>0010508238</urn:AccountNumber>
+							<urn:AccountHolder>
+								<urn:AcctHolderType>FATCA104</urn:AcctHolderType>
+								<urn:Individual>
+									<ResCountryCode>US</ResCountryCode>
+									<TIN issuedBy="US"></TIN>
+									<Name>
+										<FirstName>EST OF</FirstName>
+										<MiddleName>GBOLAHAN</MiddleName>
+										<LastName>ONAYEMI</LastName>
+									</Name>
+							  		<Address>
+										<CountryCode>US</CountryCode>
+										<AddressFree>816 W 105TH STREET CALIFONIA LOS ANGELES CALIFONIA</AddressFree>
+									</Address>							  
+									<BirthInfo>
+										<BirthDate>1946-11-02</BirthDate>
+										<CountryInfo>
+											<CountryCode>US</CountryCode>
+										</CountryInfo>
+									</BirthInfo>
+								</urn:Individual>
+							</urn:AccountHolder>
+							<urn:AccountBalance currCode="USD">13504.66</urn:AccountBalance>
+							<urn:Payment>
+								<urn:Type>FATCA504</urn:Type>
+								<urn:PaymentAmnt currCode="USD">1128364.32</urn:PaymentAmnt>
+							</urn:Payment>
+					</urn:AccountReport>     
+					<urn:AccountReport>
+							<urn:DocSpec>
+								<urn:DocTypeIndic>FATCA11</urn:DocTypeIndic>
+								<urn:DocRefId>REF0006UBNFATCA2015</urn:DocRefId>
+							</urn:DocSpec>
+							<urn:AccountNumber>0037612789</urn:AccountNumber>
+							<urn:AccountHolder>
+								<urn:AcctHolderType>FATCA104</urn:AcctHolderType>
+								<urn:Individual>   
+									<ResCountryCode>US</ResCountryCode>
+									<TIN issuedBy="US"></TIN>
+									<Name>
+										<FirstName>OLUWAKEMI</FirstName>
+										<MiddleName>KUDIRAT</MiddleName>
+										<LastName>BELLO</LastName>
+									</Name>							  
+									<Address>
+										<CountryCode>US</CountryCode>
+										<AddressFree>2013 LAKE BLUFF RD BLOOMINGTON +13095857389</AddressFree>
+									</Address>							 
+									<BirthInfo>
+										<BirthDate>1956-07-24</BirthDate>
+										<CountryInfo>
+										<CountryCode>US</CountryCode>
+										</CountryInfo>
+									</BirthInfo>
+								</urn:Individual>
+							</urn:AccountHolder>
+							<urn:AccountBalance currCode="USD">1150.29</urn:AccountBalance>
+							<urn:Payment>
+								<urn:Type>FATCA504</urn:Type>
+								<urn:PaymentAmnt currCode="USD">277538.54</urn:PaymentAmnt>
+							</urn:Payment>
+					</urn:AccountReport>					
+				</urn:ReportingGroup>
+			</urn:FATCA>
+	</urn:FATCA_OECD>
